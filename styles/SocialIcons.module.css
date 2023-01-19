@@ -1,0 +1,28 @@
+.wrapper {
+  position: fixed;
+  bottom: 0;
+  padding-left: 20px;
+}
+
+.wrapper ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper ul::after {
+  content: "";
+  background-color: var(--color-light-slate);
+  width: 1px;
+  height: 90px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.wrapper svg {
+  transition: var(--transition);
+}
+
+.wrapper svg:hover {
+  stroke: var(--color-green);
+  transform: translateY(-5px);
+}

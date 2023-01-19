@@ -16,6 +16,7 @@
   --color-green-tint: rgba(100, 255, 218, 0.1);
   --color-pink: #f57dff;
   --color-blue: #57cbff;
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 /* fonts */
@@ -29,6 +30,10 @@
 
 /* colors */
 .text-lightest-slate {
+  color: var(--color-light-slate);
+}
+
+.text-light-slate {
   color: var(--color-light-slate);
 }
 

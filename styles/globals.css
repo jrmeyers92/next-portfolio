@@ -14,5 +14,6 @@
 
 body {
   min-height: 100vh;
+  height: 200vh;
   background-color: var(--color-navy);
 }
