@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap");
+
+.logo {
+  font-family: "Rubik", sans-serif;
+  color: var(--color-green);
+}
+
+.link {
+  color: var(--color-lightest-slate);
+  transition: all 0.2s;
+}
+
+.link:hover {
+  color: var(--color-green);
+}
