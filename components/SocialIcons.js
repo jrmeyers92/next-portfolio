@@ -8,7 +8,7 @@ import { socialLinks } from "../data";
 export default function SocialIcons() {
   const { linkedin, github } = socialLinks;
   return (
-    <div className={styles.wrapper}>
+    <div className={`${styles.wrapper} hidden md:flex`}>
       <ul>
         <li className="p-2">
           <a href={github} target="_blank" className="cursor-pointer">
