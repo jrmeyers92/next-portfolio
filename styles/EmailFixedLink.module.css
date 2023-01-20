@@ -23,8 +23,3 @@
   cursor: pointer;
   font-size: 12px;
 }
-
-.wrapper a:hover {
-  @apply text-green;
-  transform: translateY(-5px);
-}
