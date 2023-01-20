@@ -11,8 +11,8 @@
 }
 
 .wrapper ul::after {
+  @apply bg-lightSlate;
   content: "";
-  background-color: var(--color-light-slate);
   width: 1px;
   height: 90px;
   margin-left: 15px;
@@ -24,6 +24,6 @@
 }
 
 .wrapper svg:hover {
-  stroke: var(--color-green);
+  @apply stroke-green;
   transform: translateY(-5px);
 }

@@ -5,7 +5,7 @@ export default function EmailFixedLink() {
     <div className={`${styles.wrapper} hidden md:flex`}>
       <a
         href="mailto:JakeRMeyers92@gmail.com"
-        className="text-light-slate font-firaCode"
+        className="text-lightSlate font-firaCode"
         target="_blank"
       >
         Jakermeyers92@gmail.com

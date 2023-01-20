@@ -7,8 +7,8 @@
 }
 
 .wrapper::after {
+  @apply bg-lightSlate;
   content: "";
-  background-color: var(--color-light-slate);
   width: 1px;
   height: 90px;
   margin-left: 8px;
@@ -25,6 +25,6 @@
 }
 
 .wrapper a:hover {
-  color: var(--color-green);
+  @apply text-green;
   transform: translateY(-5px);
 }

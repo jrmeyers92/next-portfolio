@@ -7,9 +7,9 @@
 }
 
 .wrapper::after {
+  @apply bg-lightestNavy;
   content: "";
   width: 300px;
   height: 1px;
-  background-color: var(--color-lightest-navy);
   margin-left: 20px;
 }
