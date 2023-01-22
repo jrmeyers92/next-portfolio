@@ -9,3 +9,41 @@ export const socialLinks = {
   linkedin: "https://www.linkedin.com/in/jake-meyers-477b7a52/",
   github: "https://github.com/jrmeyers92",
 };
+
+export const jobData = [
+  {
+    id: "emerson",
+    company: "Emerson Electric",
+    started: "Aug 2021",
+    ended: "Present",
+    jobTitle: "Software Developer",
+    duties: [
+      "Create, update and maintain front end components.",
+      "Customize our CMS interface utilizing Actionscript and mxml.",
+      "Tech Stack: Jquery, Sass, Java, Spring, Azure Devops, and Core Media CMS. ",
+    ],
+  },
+  {
+    id: "clb",
+    company: "CLB Network",
+    started: "Dec 2020",
+    ended: "Aug 2021",
+    jobTitle: "Software Developer",
+    duties: [
+      "Build websites, features and applications for companies within the construction industry.",
+      "Write bash scripts to bring changes across many instances of projects",
+      "Tech Stack: Tailwind CSS, Vanilla JS, PHP/Laravel, and Statamic CMS.",
+    ],
+  },
+  {
+    id: "matchbox",
+    company: "Matchbox Design Group",
+    started: "Jul 2021",
+    ended: "Nov 2021",
+    jobTitle: "Software Developer - Intern",
+    duties: [
+      "Developed and maintained websites and web applications for a variety of customers.",
+      "Tech Stack: HTML, CSS / SCSS, Tailwind CSS, Vue JS, Wordpress, and Laravel Blade templating.",
+    ],
+  },
+];
