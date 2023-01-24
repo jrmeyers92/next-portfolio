@@ -12,6 +12,10 @@
   @apply p-0 m-0 box-border;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-navy min-h-screen;
 }
@@ -36,6 +40,19 @@ body {
   line-height: 1.1;
 }
 
+input[type="radio"] + label {
+  @apply border-b lg:border-b-0 lg:border-l border-darkSlate;
+  transition: border 0.2s 0.5s;
+}
+
 input[type="radio"]:checked + label {
-  @apply text-green;
+  @apply text-green border-b-2 lg:border-b-0 lg:border-l-2 border-green bg-lightNavy;
+}
+
+.contact-heading {
+  font-size: clamp(40px, 5vw, 60px);
+}
+
+.contact-button:hover {
+  background-color: rgba(100, 255, 218, 0.1);
 }

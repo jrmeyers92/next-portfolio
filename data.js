@@ -46,4 +46,37 @@ export const jobData = [
       "Tech Stack: HTML, CSS / SCSS, Tailwind CSS, Vue JS, Wordpress, and Laravel Blade templating.",
     ],
   },
+  {
+    id: "xcelData",
+    company: "Xcel Energy",
+    started: "Dec 2020",
+    ended: "Jun 2021",
+    jobTitle: "Data Analyst",
+    duties: [
+      "Developed and maintained websites and web applications for a variety of customers.",
+      "Tech Stack: HTML, CSS / SCSS, Tailwind CSS, Vue JS, Wordpress, and Laravel Blade templating.",
+    ],
+  },
+  {
+    id: "xcelBuyer",
+    company: "Xcel Energy",
+    started: "Sep 2018",
+    ended: "Dec 2020",
+    jobTitle: "Planner/Buyer",
+    duties: [
+      "Developed and maintained websites and web applications for a variety of customers.",
+      "Tech Stack: HTML, CSS / SCSS, Tailwind CSS, Vue JS, Wordpress, and Laravel Blade templating.",
+    ],
+  },
+  {
+    id: "fun",
+    company: "Fun Language",
+    started: "Oct 17",
+    ended: "Aug 2018",
+    jobTitle: "ESL Teacher",
+    duties: [
+      "Developed and maintained websites and web applications for a variety of customers.",
+      "Tech Stack: HTML, CSS / SCSS, Tailwind CSS, Vue JS, Wordpress, and Laravel Blade templating.",
+    ],
+  },
 ];
