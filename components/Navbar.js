@@ -9,9 +9,9 @@ export default function Navbar() {
         <li className="p-[10px] text-[13px] uppercase font-firaCode text-lightestSlate duration-200 ease-in-out hover:text-green">
           <a href="#experience">Experience</a>
         </li>
-        <li className="p-[10px] text-[13px] uppercase font-firaCode text-lightestSlate duration-200 ease-in-out hover:text-green">
+        {/* <li className="p-[10px] text-[13px] uppercase font-firaCode text-lightestSlate duration-200 ease-in-out hover:text-green">
           <a href="#">Projects</a>
-        </li>
+        </li> */}
 
         <li className="p-[10px] text-[13px] uppercase font-firaCode text-lightestSlate duration-200 ease-in-out hover:text-green">
           <a href="#">Contact</a>
