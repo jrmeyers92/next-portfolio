@@ -1,4 +1,5 @@
 import styles from "../styles/EmailFixedLink.module.css";
+import { email } from "../data";
 
 export default function EmailFixedLink() {
   return (
@@ -10,7 +11,7 @@ export default function EmailFixedLink() {
         className="text-lightSlate font-firaCode hover:text-green hover:-translate-y-[5px] duration-200 hover:scale-105"
         target="_blank"
       >
-        Jakermeyers92@gmail.com
+        {email}
       </a>
     </div>
   );

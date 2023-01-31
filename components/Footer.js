@@ -21,7 +21,13 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <p>Designed by Brittany Chiang. Built by Jake Meyers</p>
+      <a
+        href={socialLinks.github}
+        target="_blank"
+        className="hover:text-green duration-200"
+      >
+        Designed by Brittany Chiang. Built by Jake Meyers
+      </a>
     </div>
   );
 };

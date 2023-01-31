@@ -2,12 +2,17 @@ export const heroData = {
   name: "Jake Meyers",
   subtitle: "I build things for the web.",
   miniBio:
-    "I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Upstatement.",
+    "I’m a software engineer specializing in building exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Emerson Electric.",
 };
 
-export const socialLinks = {
-  linkedin: "https://www.linkedin.com/in/jake-meyers-477b7a52/",
-  github: "https://github.com/jrmeyers92",
+export const aboutData = {
+  bio: [
+    "Greetings, I'm a Software Developer with industy experience using HTML, CSS, and JavaScript, React, Vue, Sass, Tailwind, Git and more.",
+
+    "I enjoy teaching myself new technologies and computer science concepts. I'm currently reading Grokking Algorithms and playing around with the JavaScript D3 library.",
+
+    "When not coding, you can find me playing with my dog, reading, camping or backpacking, mountain biking, going on float trips, or hanging out with friends and family.",
+  ],
 };
 
 export const jobData = [
@@ -78,3 +83,10 @@ export const jobData = [
     ],
   },
 ];
+
+export const socialLinks = {
+  linkedin: "https://www.linkedin.com/in/jake-meyers-477b7a52/",
+  github: "https://github.com/jrmeyers92",
+};
+
+export const email = "JakeRMeyers92@gmail.com";

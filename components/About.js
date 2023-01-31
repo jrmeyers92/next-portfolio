@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import SectionHeading from "./SectionHeading";
 import ProfilePic from "../public/assets/ProfPic.jpeg";
+import { aboutData } from "../data";
 
 export const About = () => {
   return (
@@ -9,20 +10,9 @@ export const About = () => {
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
         <div className="flex items-center justify-center flex-col text-slate text-[20px] leading-[26px] font-thin">
           <SectionHeading title="About Me" />
-          <p className="mb-3">
-            Greetings, I'm a Software Developer with industry experience using
-            HTML, CSS, and JavaScript, React, Vue, Sass, Tailwind, Git and more.{" "}
-          </p>
-          <p className="mb-3">
-            I enjoy teaching myself new technologies and computer science
-            concepts. I'm currently reading Grokking Algorithms and playing
-            around with the JavaScript D3 library.{" "}
-          </p>
-          <p className="mb-3">
-            When not coding, you can find me playing with my dog, reading,
-            camping or backpacking, mountain biking, going on float trips, or
-            hanging out with friends and family.
-          </p>
+          {aboutData.bio.map((paragraph) => (
+            <p className="mb-3">{paragraph}</p>
+          ))}
         </div>
         <Image
           src={ProfilePic}

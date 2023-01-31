@@ -58,7 +58,7 @@ const Experience = () => {
               <p className="mb-6 mt-1 text-sm font-firaCode">
                 {job.started} - {job.ended}
               </p>
-              <ul>
+              <ul className="h-[200px]">
                 {job.duties.map((duty, index) => (
                   <li className="flex items-start" key={index}>
                     <div className="w-[13px] h-[13px] mr-3 mt-1">
