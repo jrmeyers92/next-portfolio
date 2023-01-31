@@ -21,10 +21,10 @@ const Experience = () => {
   console.log(selectedJobIndex);
 
   return (
-    <section className="w-[700px] my-20" id="experience">
+    <section className="my-40" id="experience">
       <SectionHeading title="Where I've Worked" />
       <div className="my-20 flex gap-8 flex-col lg:flex-row">
-        <div className={`flex lg:flex-col overflow-auto lg:overflow-visible`}>
+        <div className="flex lg:flex-col overflow-auto lg:overflow-visible">
           {jobData.map((job, index) => (
             <div key={job.id}>
               <input
@@ -61,7 +61,10 @@ const Experience = () => {
               <ul>
                 {job.duties.map((duty, index) => (
                   <li className="flex items-start" key={index}>
-                    <BsCaretRight className="text-green mr-3 text-md" /> {duty}
+                    <div className="w-[13px] h-[13px] mr-3 mt-1">
+                      <BsCaretRight className="text-green" size={13} />
+                    </div>
+                    {duty}
                   </li>
                 ))}
               </ul>

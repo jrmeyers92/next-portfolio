@@ -5,12 +5,9 @@ import ProfilePic from "../public/assets/ProfPic.jpeg";
 
 export const About = () => {
   return (
-    <section
-      className="w-full flex flex-col md:flex-row items-center justify-center my-20 gap-6 mx-[75px]"
-      id="about"
-    >
-      <div className="flex items-center justify-center">
-        <div className="flex items-center justify-center flex-col max-w-lg text-slate text-[20px] leading-[26px] font-thin">
+    <section className="my-40 lg:-ml-20" id="about">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
+        <div className="flex items-center justify-center flex-col text-slate text-[20px] leading-[26px] font-thin">
           <SectionHeading title="About Me" />
           <p className="mb-3">
             Greetings, I'm a Software Developer with industry experience using

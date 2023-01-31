@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section className="my-20 max-w-[700px] text-center">
+    <section className="my-40 text-center">
       <h2 className="contact-heading text-lightestSlate mb-[10px]">
         Get in Touch
       </h2>

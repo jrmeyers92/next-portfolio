@@ -8,18 +8,22 @@ import EmailFixedLink from "../components/EmailFixedLink";
 import { About } from "../components/About";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="font-inter mx-4 overflow-x-hidden">
+    <div className="font-inter mx-4">
       <Navbar />
-      <Hero />
       <SocialIcons />
       <EmailFixedLink />
-      <div className="flex flex-col items-center justify-center">
-        <About />
-        <Experience />
-        <Contact />
+      <div className="mx-4 md:mx-20  lg:flex lg:flex-col lg:items-center lg:justify-center">
+        <div className="lg:max-w-2xl">
+          <Hero />
+          <About />
+          <Experience />
+          <Contact />
+          <Footer />
+        </div>
       </div>
     </div>
   );

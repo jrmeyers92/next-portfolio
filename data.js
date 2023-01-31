@@ -53,8 +53,8 @@ export const jobData = [
     ended: "Jun 2021",
     jobTitle: "Data Analyst",
     duties: [
-      "Developed and maintained websites and web applications for a variety of customers.",
-      "Tech Stack: HTML, CSS / SCSS, Tailwind CSS, Vue JS, Wordpress, and Laravel Blade templating.",
+      "Utilized Python and VBA to automate repetitive tasks for multiple teams across the supply chain department.",
+      "Queried data out of SAP Business Objects and into Power BI to create reports and dashboards for a wide audience (VP of Supply Chain, Directors, Managers and Individual Contributors).",
     ],
   },
   {
@@ -64,8 +64,7 @@ export const jobData = [
     ended: "Dec 2020",
     jobTitle: "Planner/Buyer",
     duties: [
-      "Developed and maintained websites and web applications for a variety of customers.",
-      "Tech Stack: HTML, CSS / SCSS, Tailwind CSS, Vue JS, Wordpress, and Laravel Blade templating.",
+      "Managed material needs for all distribution projects in the Denver Metro East area, expediting when necessary and informing crews and BU’s of delays.",
     ],
   },
   {
@@ -75,8 +74,7 @@ export const jobData = [
     ended: "Aug 2018",
     jobTitle: "ESL Teacher",
     duties: [
-      "Developed and maintained websites and web applications for a variety of customers.",
-      "Tech Stack: HTML, CSS / SCSS, Tailwind CSS, Vue JS, Wordpress, and Laravel Blade templating.",
+      "Planned, prepared, and delivered English lessons to 500+ students per week",
     ],
   },
 ];

@@ -49,10 +49,23 @@ input[type="radio"]:checked + label {
   @apply text-green border-b-2 lg:border-b-0 lg:border-l-2 border-green bg-lightNavy;
 }
 
+.section-header {
+  font-size: clamp(26px, 5vw, 32px);
+}
+
 .contact-heading {
   font-size: clamp(40px, 5vw, 60px);
 }
 
 .contact-button:hover {
   background-color: rgba(100, 255, 218, 0.1);
+}
+
+.wrapper svg {
+  transition: all 0.2s;
+}
+
+.wrapper svg:hover {
+  @apply stroke-green;
+  transform: translateY(-5px);
 }

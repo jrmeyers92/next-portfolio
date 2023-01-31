@@ -20,7 +20,7 @@
 }
 
 .wrapper svg {
-  transition: var(--transition);
+  transition: all 0.2s;
 }
 
 .wrapper svg:hover {
