@@ -14,7 +14,7 @@ export default function Navbar() {
         </li> */}
 
         <li className="p-[10px] text-[13px] uppercase font-firaCode text-lightestSlate duration-200 ease-in-out hover:text-green">
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
