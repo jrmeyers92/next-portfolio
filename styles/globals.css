@@ -16,9 +16,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  @apply bg-navy min-h-screen;
-}
 
 .logo {
   font-family: "Rubik", sans-serif;
