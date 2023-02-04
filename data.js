@@ -7,7 +7,7 @@ export const heroData = {
 
 export const aboutData = {
   bio: [
-    "Greetings, I'm a Software Developer with industy experience using HTML, CSS, and JavaScript, React, Vue, Sass, Tailwind, Git and more.",
+    "Greetings, I'm a Software Developer with industy experience using HTML, CSS, JavaScript, React, Vue, Sass, Tailwind, Git and more.",
 
     "I enjoy teaching myself new technologies and computer science concepts. I'm currently reading Grokking Algorithms and playing around with the JavaScript D3 library.",
 
