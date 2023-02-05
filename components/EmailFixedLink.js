@@ -1,10 +1,14 @@
 import styles from "../styles/EmailFixedLink.module.css";
 import { email } from "../data";
+import { motion } from "framer-motion";
 
 export default function EmailFixedLink() {
   return (
-    <div
+    <motion.div
       className={`${styles.wrapper} hidden md:flex md:flex-col fixed bottom-0 right-0 pr-[20px]`}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5, delay: 1.8 }}
     >
       <a
         href="mailto:JakeRMeyers92@gmail.com"
@@ -13,6 +17,6 @@ export default function EmailFixedLink() {
       >
         {email}
       </a>
-    </div>
+    </motion.div>
   );
 }

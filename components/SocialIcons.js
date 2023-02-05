@@ -5,10 +5,17 @@ import Linkedin from "../public/assets/linkedin.svg";
 
 import { socialLinks } from "../data";
 
+import { motion } from "framer-motion";
+
 export default function SocialIcons() {
   const { linkedin, github } = socialLinks;
   return (
-    <div className={`${styles.wrapper} hidden md:flex`}>
+    <motion.div
+      className={`${styles.wrapper} hidden md:flex`}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5, delay: 1.8 }}
+    >
       <ul>
         <li className="p-2">
           <a href={github} target="_blank" className="cursor-pointer">
@@ -22,6 +29,6 @@ export default function SocialIcons() {
           </a>
         </li>
       </ul>
-    </div>
+    </motion.div>
   );
 }
