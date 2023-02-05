@@ -13,7 +13,7 @@ export default function Hero() {
           className="text-green text-sm tracking-wider font-firaCode ml-[20px]"
           initial={{ y: 10, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.3, delay: 1 }}
+          transition={{ duration: 0.3, delay: 0.9 }}
           viewport={{ once: true }}
         >
           Hi, my name is
@@ -22,7 +22,7 @@ export default function Hero() {
           className="text-lightestSlate big-heading pt-[20px]"
           initial={{ y: 10, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.3, delay: 1.1 }}
+          transition={{ duration: 0.3, delay: 1 }}
           viewport={{ once: true }}
         >
           {name}
@@ -30,7 +30,7 @@ export default function Hero() {
         <motion.h2
           initial={{ y: 10, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.3, delay: 1.2 }}
+          transition={{ duration: 0.3, delay: 1.1 }}
           viewport={{ once: true }}
           className="text-slate big-heading"
         >
@@ -39,7 +39,7 @@ export default function Hero() {
         <motion.p
           initial={{ y: 10, opacity: 0 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.3, delay: 1.3 }}
+          transition={{ duration: 0.3, delay: 1.2 }}
           viewport={{ once: true }}
           className="text-slate mt-[20px] max-w-[540px] text-[20px] leading-[26px] font-thin"
         >
