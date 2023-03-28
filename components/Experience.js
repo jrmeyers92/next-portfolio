@@ -1,30 +1,39 @@
-import { useState } from "react";
-import SectionHeading from "./SectionHeading";
-import { jobData } from "../data";
+import { useRef, useState } from "react";
 import { BsCaretRight } from "react-icons/bs";
+import { jobData } from "../data";
+import SectionHeading from "./SectionHeading";
 
 const Experience = () => {
   const [selectedJob, setSelectedJob] = useState("emerson");
-  const [selectedJobIndex, setSelectedJobIndex] = useState(0);
+  const scrollTabsRef = useRef();
 
   const handleChange = (e) => {
-    let inputs = document.querySelectorAll("[name='jobs']");
     let id = e.target.id;
     setSelectedJob(id);
-    inputs.forEach((input, index) => {
-      if (input.id == id) {
-        setSelectedJobIndex(index * 35.5);
-      }
-    });
-  };
+    let windowWidth = window.innerWidth;
+    let inputElement = document.getElementById(id);
+    let label = inputElement.parentNode.querySelector("label");
+    let rightEdge = label.getBoundingClientRect().left + label.offsetWidth;
+    let leftEdge = label.getBoundingClientRect().left;
 
-  console.log(selectedJobIndex);
+    if (rightEdge + 50 > windowWidth) {
+      scrollTabsRef.current.scrollLeft =
+        scrollTabsRef.current.scrollLeft + (rightEdge - windowWidth + 120);
+    } else if (leftEdge < 0) {
+      scrollTabsRef.current.scrollLeft =
+        scrollTabsRef.current.scrollLeft - (leftEdge * -1 + 60);
+    }
+  };
 
   return (
     <section className="my-40" id="experience">
       <SectionHeading title="Where I've Worked" />
       <div className="my-20 flex gap-8 flex-col lg:flex-row">
-        <div className="flex lg:flex-col overflow-auto lg:overflow-visible">
+        <div
+          className="flex lg:flex-col overflow-auto lg:overflow-visible"
+          ref={scrollTabsRef}
+          id="scrollTabs"
+        >
           {jobData.map((job, index) => (
             <div key={job.id}>
               <input

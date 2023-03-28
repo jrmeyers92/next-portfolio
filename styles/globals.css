@@ -40,7 +40,7 @@ html {
 
 input[type="radio"] + label {
   @apply border-b lg:border-b-0 lg:border-l border-darkSlate;
-  transition: border 0.2s 0.5s;
+  transition: border 0.2s;
 }
 
 input[type="radio"]:checked + label {
