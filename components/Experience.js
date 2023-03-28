@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { BsCaretRight } from "react-icons/bs";
 import { jobData } from "../data";
+import styles from "../styles/Experience.module.css";
 import SectionHeading from "./SectionHeading";
 
 const Experience = () => {
@@ -30,7 +31,7 @@ const Experience = () => {
       <SectionHeading title="Where I've Worked" />
       <div className="my-20 flex gap-8 flex-col lg:flex-row">
         <div
-          className="flex lg:flex-col overflow-auto lg:overflow-visible"
+          className={`flex lg:flex-col overflow-auto lg:overflow-visible ${styles.scrollTabsContainer}`}
           ref={scrollTabsRef}
           id="scrollTabs"
         >
