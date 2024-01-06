@@ -5,7 +5,7 @@ import styles from "../styles/Experience.module.css";
 import SectionHeading from "./SectionHeading";
 
 const Experience = () => {
-  const [selectedJob, setSelectedJob] = useState("emerson");
+  const [selectedJob, setSelectedJob] = useState("oberon");
   const scrollTabsRef = useRef();
 
   const handleChange = (e) => {
@@ -54,7 +54,7 @@ const Experience = () => {
             </div>
           ))}
         </div>
-        <div>
+        <div className="overflow-scroll">
           {jobData.map((job) => (
             <div
               key={job.id}

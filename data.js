@@ -17,15 +17,32 @@ export const aboutData = {
 
 export const jobData = [
   {
+    id: "oberon",
+    company: "Oberon Technologies",
+    started: "October 2023",
+    ended: "Present",
+    jobTitle: "Software Engineer",
+    duties: [
+      "Customize themes of portals to match client branding and add custom functionality",
+      "Provide",
+      "Developed a java application used to transform json to dita xml and then import or update the xml into Windchill",
+    ],
+  },
+  {
     id: "emerson",
     company: "Emerson Electric",
     started: "Aug 2021",
-    ended: "Present",
+    ended: "September 2023",
     jobTitle: "Software Developer",
     duties: [
-      "Create, update and maintain front end components.",
-      "Customize our CMS interface utilizing Actionscript and mxml.",
-      "Tech Stack: Jquery, Sass, Java, Spring, Azure Devops, and Core Media CMS. ",
+      "Accomplished Software Developer at Emerson Electric, specializing in enhancing emerson.com and subsidiary sites with a focus on the CoreMedia CMS.",
+      "Designed and implemented an innovative popup notification system, allowing content authors to craft dynamic notifications for 100+ website components, effectively highlighting crucial updates",
+      "Facilitated integration between the CMS and the commerce system by developing API endpoints. Responded with HTML, CSS, and JavaScript for popup notifications, streamlining communication and information dissemination.",
+      "Pioneered the development of new components, including engaging promos, eye-catching hero sections, and a dynamic stock ticker that showcases real-time stock prices, refreshed every 15 minutes.",
+      "Actively collaborated with cross-functional teams, primarily located in the Philippines, contributing to a diverse and global work environment.",
+      "Engaged in a SAFe (Scaled Agile Framework) environment, actively participating in SAFe ceremonies to ensure effective collaboration, alignment, and project execution.",
+      "Demonstrated expertise in crafting custom content types and CoreMedia Studio forms, optimizing content storage and delivery for a superior end-user experience.",
+      "Managed deployments and releases efficiently through Microsoft Azure, contributing to a robust and streamlined development lifecycle",
     ],
   },
   {
@@ -35,9 +52,12 @@ export const jobData = [
     ended: "Aug 2021",
     jobTitle: "Software Developer",
     duties: [
-      "Build websites, features and applications for companies within the construction industry.",
-      "Write bash scripts to bring changes across many instances of projects",
-      "Tech Stack: Tailwind CSS, Vanilla JS, PHP/Laravel, and Statamic CMS.",
+      "Integral contributor at CLB Network, specializing in crafting feature-rich applications and websites catered to the luxury home building sector.",
+      "Leveraged ZSH/BASH scripting expertise to orchestrate widespread changes across multiple instances of sites and applications, streamlining processes and maintaining consistency.",
+      "Successfully transitioned Vue components to Vanilla JS components, resulting in a notable enhancement of website performance and user experience.",
+      "Engineered a scheduling application inspired by the Zillow scheduling app, providing efficient appointment management and improved user engagement.",
+      "Developed a review application that simplifies the collection of user reviews on the website, while also directing customers towards leaving reviews on various social media platforms.",
+      "Spearheaded the creation of a versatile and reusable modal using web components, enhancing user interaction and consistency across different parts of the website.",
     ],
   },
   {
